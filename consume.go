@@ -7,8 +7,8 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/garyburd/redigo/redis"
-	"github.com/lovego/xiaomei/utils/fs"
-	"github.com/lovego/xiaomei/utils/logger"
+	"github.com/lovego/fs"
+	"github.com/lovego/logger"
 )
 
 type Consume struct {
